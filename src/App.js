@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import Counter from './class_counter';
+import CounterFunc from './function_counter'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          counter task
+
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
       </header>
+      <h1>
+        Class counter
+      </h1>
+      <Counter />
+      <h1>
+        function counter
+      </h1>
+      <CounterFunc />
     </div>
   );
 }

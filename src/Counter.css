@@ -1,0 +1,30 @@
+.counter-container {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  background-color: #f0f8ff;
+}
+
+.counter-button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.counter-button:hover {
+  background-color: #0056b3;
+}
+
+.counter-display {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
