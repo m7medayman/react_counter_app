@@ -23,7 +23,6 @@ class Counter extends Component {
     }));
   };
 
-  // Step 7: Render the component UI
   render() {
     return (
       <div className="counter-container">
